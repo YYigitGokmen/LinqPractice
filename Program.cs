@@ -3,9 +3,6 @@ public class Program
 {
     public static void Main(string[] args)
     {
-
-
-
         List<int> numbers = new List<int>() {5,0,9,-10,-3,120,31,18,2,7};
 
         var evenNumbers = numbers.Where(num => num % 2 == 0).ToList();
